@@ -3,6 +3,7 @@ library(highcharter)
 library(shinyjs)
 library(shinythemes)
 library(shinydashboard)
+library(Rfacebook)
 
 
 #---------------------------------------------------------------------
@@ -12,7 +13,7 @@ library(shinydashboard)
 load('auth')
 
 #---------------------------------------------------------------------
-# 
+# run search on word in input text box 
 #---------------------------------------------------------------------
 
 

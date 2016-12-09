@@ -28,5 +28,15 @@ get_info_on_post <- getPost(get_page_with_string[1,1],token = auth)
 buzzfeed <- getPage('BuzzFeed', token = auth, feed = T, reactions = T)
 share_info <- getShares('21898300328_10155268300130329', token = auth)
 
+# get info on multiple post from a dataframe of post on a page 
+
+get_info <- function(df){ 
+  for (i in 1:length(df[,1])){ 
+    post_info <- getPost(df[i,1],token = auth)
+  }
+  
+  }
+
+get_info(buzzfeed)
 
 
