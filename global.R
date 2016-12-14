@@ -1,4 +1,3 @@
-
 library(highcharter)
 library(shinyjs)
 library(shinythemes)
@@ -15,5 +14,3 @@ load('auth')
 #---------------------------------------------------------------------
 # run search on word in input text box 
 #---------------------------------------------------------------------
-
-
